@@ -1,0 +1,326 @@
+.lune{ 
+
+	background-color:#589;/* Couleur ya katikati*/
+	
+
+
+}
+
+.le_tout{ /* .le_tout     EST  LA CLASS DU BODY couleur ya mipanzi */
+	padding:0px;
+	margin:0px;
+	margin:0 auto;	/*  CECI EST POUR  CENTRER notre page de façon à ce que quand on le redimensionne, que ca soit touours centrée */
+	border:0px solid black;
+	width:1024px;
+	background-color:#003;
+	
+}
+
+
+.la_tete{   /* LA CLSS DU HEDAER    */
+	text-align:center;
+//	background-color:#A6A;
+	background-color: #269;
+	border:1px solid black;
+	//line-height:30px;  /*FAIRE MONTER ET DECENDRE LE TEXT DANS LA BORDURE*/
+	box-shadow:3px 3px 7px black inset;
+	
+//margin-left:2px;
+
+}
+
+
+.h2_sur_noir{
+
+}
+
+.titre_de_page{
+	text-align:left;
+	font-family: "century gothic", "helvetica neue";
+	color:#fff;
+	font-size:2.4em;
+	text-shadow:0px 0px 5px black;
+	text-align:center;
+}
+
+
+.titre2{
+	font-weight:;
+	color:#abffbf;
+	font-size:27px;
+}
+
+
+.titre_h3{
+	color:#FD9;
+}
+
+.se_connecter{
+	border:inherit;
+	box-shadow:1px 1px 10px black;
+	border-top-left-radius:23px;
+	border-top-right-radius:23px;
+	border-bottom-left-radius:23px;
+	border-bottom-right-radius:23px;
+}
+
+.ma_paragraphe{
+	color:#fdf;
+	font-size:20px;
+	font-family:"high tower text", "harrington", "consolas", "segoe script", "segoe print","helvetica", "neue", "century gothic" ;
+}
+
+
+
+
+
+.rechercher{
+	position:relative;
+	top:-118px;
+	//left:1024px;
+}
+
+
+/*ICI COMMENCENT NOTRE NAV         LES LIENS   */
+
+.list-haut{
+margin:0px;
+padding:0px;
+	border:0px solid black;
+	list-style:none;
+	display:inline-block;
+	position:relative;
+	left:400px;
+	background-color:#997799;
+	width:550px;
+	border-bottom-left-radius:22px;
+	border-bottom-right-radius:22px;
+	box-shadow:1px 1px 5px black;
+//margin:0 auto;
+	
+}
+
+.lien_gauche{
+	border-bottom-left-radius:22px;
+}
+
+.lien_droite{
+	border-bottom-right-radius:22px;
+	border-left:inherit;
+}
+
+.list-haut > li{
+	border:0px solid blue;
+	display:inline-block;
+	vertical-align:top;
+	width:90.6px;
+	border-right: 1px solid #fff;
+	height:25px;
+	margin:0 -2px 0;
+}
+
+.list-haut > li > a{
+	//border:1px solid blue;
+	display:inline-block;
+	text-decoration:inherit;
+	text-align:center;
+	color:white;
+	text-shadow:0px 0px 1px black;
+	font-weight:bold;
+	vertical-align:top;
+	//width:380px;
+	width:100%;
+	//margin-left:5px;
+}
+
+
+.list-haut > li:hover{
+	background-color:#252;
+}
+
+.list-haut > li:hover > a{
+	color:yellow;
+}
+
+
+
+
+
+
+
+
+ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;	
+}
+.nav{
+	list-style:none;
+	background-color:black;
+	margin:0 0px 0 0;
+}
+
+.nav > li{
+position:relative;
+	display:inline-block;
+	vertical-align:top;
+	width:125px;
+	border-right: 1px solid #fff;
+//border-bottom:1px solid white;
+	height:35px;
+}
+
+.nav > li > a{
+display:block;
+	color:#fff;
+	text-decoration:none;
+	font-family: "century gothic", "helvetica neue";
+	font-weight:bold;
+	width:inherit;
+	height:inherit;
+	text-align:center;
+	line-height:30px;  /*FAIRE MONTER ET DECENDRE LE TEXT DANS LA BORDURE*/
+}
+
+.nav > li:hover > a{
+	//background:rgba(0, 0, 0, 0.7 );
+	background-color:#126656;
+	color:yellow;
+	
+	-webkit-transition: all ease-in 0.3s;
+	-moz-transition: all ease-in 0.3s;
+	-ms-transition: all ease-in 0.3s;
+	-o-transition: all ease-in 0.3s;
+	transition: all ease-in 0.3s;
+}
+
+.nav > li > .dropdown{
+position:absolute;
+	//background:rgba(0, 0, 0, 0.7 );
+	background-color:white;
+	//display:none;
+	
+top:-380px;
+opacity: 0;
+	-webkit-transition: all ease-in 0.3s;
+	-moz-transition: all ease-in 0.3s;
+	-ms-transition: all ease-in 0.3s;
+	-o-transition: all ease-in 0.3s;
+	transition: all ease-in 0.3s;
+}
+
+.nav > li > .dropdown > li{
+	width:125px;
+	//height:35px;
+	border-top:1px solid black;
+}
+
+.nav > li > .dropdown > li > a{
+	display:block;
+	width:inherit;
+	height:inherit;
+	padding:0 0 0 5px;
+	text-align:left;
+	line-height:40px;	
+	color:black;
+	vertical-align:top;
+			text-decoration:inherit;
+			font-weight:bold;
+}
+
+.nav > li:hover > .dropdown{
+	/*display:block Enlevé pour mettre l'opacité;*/
+opacity: 1;
+top:36px;	
+
+	-webkit-transition: all ease-in 0.05s;
+	-moz-transition: all ease-in 0.05s;
+	-ms-transition: all ease-in 0.05s;
+	-o-transition: all ease-in 0.05s;
+	transition: all ease-in 0.05s;
+}
+
+
+.nav > li > .dropdown > li:hover > a{
+		background-color:black;
+		width:120px;
+		color:yellow;
+		
+}
+
+
+
+
+.simple_lien{
+		
+		color:#FfF;
+		text-decoration:underline;
+		text-shadow:1px 1px 7px black;
+}
+
+.simple_lien:hover{
+		text-decoration:inherit;
+		color:yellow;
+		//font-height:bold;
+		text-decoration:inherit;
+		text-shadow:1px 1px 7px black;
+}
+
+
+/* FIN DES LIENS*/
+
+
+
+.section{
+	border:0px solid white;
+	//width:980px;
+	width:inherit;
+	height:inherit;
+	background-color:#535;
+
+}
+
+
+.article{
+border:0px solid yellow;
+//border-bottom:3px dotted yellow;
+	background-color:#553;
+	width:inherit;
+	height:inherit;
+	display:inline-block;
+//margin:2px;
+	box-shadow:3px 3px 7px black inset;
+
+}
+
+.katikati{ /* .le_tout     EST  LA CLASS DU BODY */
+	padding:0px;
+	margin:0px;
+	margin:0 auto;	/*  CECI EST POUR  CENTRER notre page de façon à ce que quand on le redimensionne, que ca soit touours centrée */
+	border:0px solid black;
+	width:1024px;
+}
+
+
+
+.ma_tutu{
+	color:#fdf;
+	font-size:20px;
+	font-family:"high tower text", "harrington", "consolas", "segoe script", "segoe print","helvetica", "neue", "century gothic" ;
+	border-bottom:2px solid white;	
+}
+
+a:link:active, a:visited:active {
+color: yellow;
+}
+
+
+
+
+
+
+.le_pied{
+	border:1px solid blue;
+	background-color:#888888;
+	//border-spacing:50px;
+}
